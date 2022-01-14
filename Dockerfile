@@ -1,5 +1,5 @@
 FROM node:16.13.2
 
-WORKDIR /src/usr/app
+WORKDIR /home/node/app
 
 CMD [ "tail", "-f", "/dev/null" ]
